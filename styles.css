@@ -1,0 +1,95 @@
+/* Style the background of the header */
+h1 {
+    text-align: center;
+    background-color: bisque;
+}
+
+/*#odinCookie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}*/
+
+.foodPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: bisque;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav {
+            display: block;
+            text-align: center;
+            margin: auto;
+  
+            padding-top: 50px;
+            padding-bottom: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: darkgray;
+    color: white;
+  }
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    display: block;
+  }
+
+  .topnav-center a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.recipeIntro {
+    background-color: darkgray;
+}
+
+.recipeIntro,
+h6,
+p {
+    text-align: center;
+}
+
+
+ /* Dashed border */
+ hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  
+  /* Dotted border */
+  hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
+  
+  /* Solid border */
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  /* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  } 
